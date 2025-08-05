@@ -10,7 +10,12 @@
 
 <body>
     <div class="leftexternal"></div>
-    <div class="imageside"></div>
+    
+    <div class="imageside">
+        <div class="logo">ODIN</div>
+        <div class="attribution">Photo by Joel Filipe on Unsplash</div>
+    </div>
+
     <form class="formside">
         <div class="toptext">
             <div>This is not a real online service! You know you need something like this in your life to help you
@@ -22,45 +27,46 @@
 
             <div class="row1">
                 <div class="nfname">
-                    <label for="first_name">First Name:</label>
+                    <label for="first_name">FIRST NAME:</label>
                     <input type="text" name="first_name" id="first_name">
                 </div>
 
                 <div class="nlname">
-                    <label for="last_name">Last Name:</label>
+                    <label for="last_name">LAST NAME:</label>
                     <input type="text" name="last_name" id="last_name">
                 </div>
             </div>
 
             <div class="row2">
                 <div class="nemail">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="email" id="email" required>
                 </div>
 
                 <div class="nphone">
-                    <label for="phone_number">Phone Number:</label>
-                    <input type="text" name="phone_number" id="phone_number">
+                    <label for="phone_number">PHONE NUMBER:</label>
+                    <input type="tel" name="phone_number" id="phone_number">
                 </div>
             </div>
 
             <div class="row3">
                 <div class="npass">
-                    <label for="password">Password:</label>
-                    <input type="text" name="password" id="password">
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" name="password" id="password" required>
                 </div>
 
                 <div class="nconfirm">
-                    <label for="confirm_password">Confirm Password:</label>
-                    <input type="text" name="confirm_password" id="confirm_password">
+                    <label for="confirm_password">CONFIRM PASSWORD:</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
                 </div>
             </div>
         </div>
 
         <div class="confirm">
-            <button type="submit">Submit</button>
+            <button type="submit">Create Account</button>
         </div>
     </form>
+
     <div class="rightexternal"></div>
 </body>
 
