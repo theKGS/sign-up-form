@@ -97,3 +97,15 @@ input {
     flex: 5;
     box-shadow: inset 0px 5px 5px #efefef;
 }
+
+button {
+    margin-left: 54px;
+    margin-top: 32px;
+    width: 200px;
+    height: 45px;
+    background-color: #bfd2e0;
+    color: white;
+    border: 2px solid #bfd2e0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #dfdfdf;
+}
