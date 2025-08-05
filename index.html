@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="leftexternal">L</div>
     <div class="imageside"></div>
-    <div class="formside">
+    <form class="formside">
         <div class="toptext"></div>
-        <div class="mainform"></div>
-        <div class="confirm"></div>    
-    </div>
+        <div class="mainform">
+            <div class="row1">
+                <div class="wrap_label"><label for="first_name">First Name:</label></div>
+                <div class="wrap_input"><input type="text" name="first_name" id="first_name"></div>
+                <div class="wrap_label"><label for="last_name">Last Name:</label></div>
+                <div class="wrap_input"><input type="text" name="last_name" id="last_name"></div>
+            </div>
+
+            <div class="row2">
+                <div class="wrap_label"><label for="email">Email:</label></div>
+                <div class="wrap_input"><input type="text" name="email" id="email"></div>
+                <div class="wrap_label"><label for="phone_number">Phone Number:</label></div>
+                <div class="wrap_input"><input type="text" name="phone_number" id="phone_number"></div>
+            </div>
+
+            <div class="row3">
+                <div class="wrap_label"><label for="password">Password:</label></div>
+                <div class="wrap_input"><input type="text" name="password" id="password"></div>
+                <div class="wrap_label"><label for="confirm_password">Confirm Password:</label></div>
+                <div class="wrap_input"><input type="text" name="confirm_password" id="confirm_password"></div>
+            </div>
+        </div>
+
+        <div class="confirm">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
     <div class="rightexternal">R</div>
 </body>
+
 </html>

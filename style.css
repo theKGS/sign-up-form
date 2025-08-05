@@ -1,27 +1,74 @@
 body {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
 
+
+/*
+    BACKGROUND, LEFT / RIGHT
+*/
 .leftexternal,
 .rightexternal {
-    flex: 1;
-    height: 100%;
+    width: 20%;
     background-color: black;
 }
 
+
+
+/*
+    SPLASH IMAGE
+*/
 .imageside {
-    flex: 3;
-    height: 100%;
-    background-color: bisque;
+    width: 30%;
 }
 
+/*
+    FORM SIDE
+*/
+
 .formside {
-    flex: 4;
-    height: 100%;
-    background-color: brown;
+    width: 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toptext {
+}
+
+.mainform {
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+}
+
+
+.wrap_label {
+    background-color: aqua;
+    flex: 3 1 0;
+}
+
+label {
+    
+}
+
+.wrap_input {
+    background-color:aquamarine;
+    flex: 2 1 0;
+}
+
+input {
+
+}
+
+
+
+
+
+.confirm {
+}
+
+label {
 }
