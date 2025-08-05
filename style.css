@@ -21,6 +21,9 @@ body {
 */
 .imageside {
     width: 30%;
+    background-image: url("images/joel-filipe-unsplash.jpg");
+    background-size: 140%;
+    display: block;
 }
 
 /*
@@ -36,7 +39,7 @@ body {
 
 .toptext {
     flex: 5;
-    background-color: yellow;
+    background-color: #eeeeff;
 }
 
 .mainform {
@@ -93,5 +96,5 @@ input {
 
 .confirm {
     flex: 5;
-    background-color: yellow;
+    background-color: #eeeeff;
 }
