@@ -63,6 +63,11 @@ body {
     justify-content: center;
 }
 
+.nfname, .nlname, .nemail, .nphone, .npass, .nconfirm {
+    flex: 0 0 0;
+    outline: 2px solid red;
+}
+
 .wrap_input {
     background-color:aquamarine;
     flex: 2 0 0;
