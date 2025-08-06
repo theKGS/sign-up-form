@@ -57,10 +57,10 @@ body {
     justify-self: flex-start;
     margin-bottom: 5%;
     background-color: rgb(255, 255, 255, 0.5);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.attribution > a {
+.attribution>a {
     color: #0f0faa;
 }
 
@@ -86,18 +86,18 @@ body {
     align-items: flex-start;
 }
 
-.toptext > div:nth-child(1) {
+.toptext>div:nth-child(1) {
     flex: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     font-weight: bold;
     width: 80%;
     padding-left: 54px;
 }
 
-.toptext > div:nth-child(2) {
+.toptext>div:nth-child(2) {
     flex: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     font-weight: bold;
     padding-left: 54px;
@@ -111,11 +111,11 @@ body {
     background-color: white;
 }
 
-.mainform > div:nth-child(1) {
+.mainform>div:nth-child(1) {
     margin-left: 55px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 /*
@@ -127,7 +127,7 @@ body {
 .row3 {
     display: flex;
     height: 30%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: small;
     font-weight: bold;
     color: #666666;
@@ -173,6 +173,19 @@ input {
     box-shadow: inset 0px 5px 5px #efefef;
 }
 
+.confirm>div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    margin-left: 54px;
+    margin-top: 32px;
+}
+
+.login {
+    color: #6f6f6f;
+    font-weight: bold;
+    display: inline;   
+}
+
 button {
     margin-left: 54px;
     margin-top: 32px;
@@ -184,7 +197,7 @@ button {
     border-radius: 10px;
     box-shadow: 5px 5px 12px #dfdfdf;
 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
-    font-weight: bold;    
+    font-weight: bold;
 }
